@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(42, 56, 18);
+}
+
+.nav-link, .navbar-brand {
+  color:rgb(0, 0, 0) ;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: #f8f9fa;
+  background-color: #12440f;
+}
+
+.text-shadow {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.photo-border {
+    border: 20px solid white !important;
+}
+
+.photo-border-about {
+    min-height: 480px;
+    min-width: 480px;
+    border: 20px solid rgb(43, 43, 43) !important;
+}
+
+#cover {
+    background-image: url(./images/copertina-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(30%);
+}
+
+#myProject {
+    background-color: rgb(88, 94, 78);
+}
+
+.card{
+    background-color: rgb(45, 88, 45);
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.linestyle {
+    border: solid 3px;
+    margin: 0%;
+    color: black;
+}
+
+.aboutheader{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+}
+
+#myAboutpage {
+    background-color: darkolivegreen;
+}
+
+.align{
+    text-align: justify;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+
+  .imgfluid {
+    max-height: 80px;
+  }
+
+  #tools {
+    background-color: #f8f9fa;
+  }
+
+
+.textbox {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Black background with 50% transparency */
+    border-radius: 10px;
+  }
+  
+  .textbox h1, .textbox p {
+    color: #000; /* Dark text color */
+  }
+
+  .contact-section {
+    background-color: #f8f9fa; /* Light background */
+    padding: 60px 0;
+  }
+  .contact-section h2 {
+    color: #007bff; /* Bootstrap primary blue */
+    margin-bottom: 40px;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
