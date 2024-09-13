@@ -26,6 +26,22 @@ body {
   background-color: #12440f;
 }
 
+.h4head{
+  font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.t1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro{
+  font-size: 2rem;
+}
+
 .text-shadow {
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
@@ -41,7 +57,7 @@ body {
 }
 
 #cover {
-    background-image: url(./images/copertina-1.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(30, 30, 30, 0.5)), url(./images/copertina-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,7 +140,7 @@ body {
     padding: 60px 0;
   }
   .contact-section h2 {
-    color: #007bff; /* Bootstrap primary blue */
+    color: #000000;
     margin-bottom: 40px;
   }
   .contact-info {
